@@ -1,0 +1,53 @@
+.header-wrapper {
+    border-bottom: 1px solid #E9EFEC;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+.logo {
+    color: #1d1e22;
+}
+
+.logo:hover {
+    color: #1d1e22;
+}
+
+.header-items-wrapper {
+    width: 50%;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+.item {
+    padding: 4px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    opacity: 0.5;
+    color: #1d1e22;
+    font-weight: 400;
+}
+
+.item:hover {
+    opacity: 1;
+    color: #1d1e22;
+    border-bottom: 2px solid #1d1e22;
+}
+
+.active-item {
+    padding: 4px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    opacity: 1;
+    color: #1d1e22;
+    border-bottom: 2px solid #1d1e22;
+    font-weight: 400;
+}
